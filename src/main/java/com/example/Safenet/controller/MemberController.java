@@ -1,5 +1,7 @@
 package com.example.Safenet.controller;
-
+//작성일:24.11.12
+//        작성자:안현준
+//        내용:로그인,회원가입 구현(세션방식)
 import com.example.Safenet.dto.MemberDTO;
 import com.example.Safenet.service.MemberService;
 import jakarta.servlet.http.HttpServletRequest;
@@ -25,7 +27,7 @@ public class MemberController {
     @GetMapping("/signup")
     public String signup() {
         log.info("회원가입 페이지 이동");
-        return "signup";  // 회원가입 페이지 경로
+        return "/signup";  // 회원가입 페이지 경로
     }
 
     // 회원가입 처리

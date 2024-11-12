@@ -1,5 +1,7 @@
 package com.example.Safenet.config;
-
+//작성일:24.11.12
+//        작성자:안현준
+//        내용:로그인,회원가입 구현(세션방식)
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
